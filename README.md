@@ -1,12 +1,12 @@
 # 🎓 The Autonomous Student OS
 
-A production-grade, multi-agent command center for students powered by **Kimi (Moonshot AI)** and orchestrated via **LangGraph**.
+A production-grade, multi-agent command center for students powered by **GROQ** and orchestrated via **LangGraph**.
 
 ## 🏛️ Architecture
 
 - **Orchestration:** LangGraph (StateGraph with conditional routing)
-- **LLM Engine:** Kimi API (OpenAI-compatible endpoint)
-- **Dashboard:** Streamlit + Three.js animations + Glassmorphism CSS
+- **LLM Engine:** GROQ API (OpenAI-compatible endpoint)
+- **Dashboard:** Streamlit + Glassmorphism CSS
 - **Storage:** Local filesystem + ChromaDB (optional vector store)
 
 ## 📦 Installation
@@ -60,7 +60,6 @@ autonomous_student_os/
 
 ## 🎨 UI Features
 
-- Three.js particle network background animation
 - Glassmorphism cards with gradient accents
 - Real-time agent execution logs
 - Interactive charts and metrics
